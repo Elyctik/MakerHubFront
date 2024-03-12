@@ -1,0 +1,47 @@
+#cal-buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#previous {
+  background: linear-gradient(#3498db, #2980b9);
+  color: #fff;
+}
+
+#today {
+  background: linear-gradient(#2ecc71, #27ae60);
+  color: #fff;
+}
+
+#next {
+  background: linear-gradient(#e74c3c, #c0392b);
+  color: #fff;
+}
+
+#month, #week, #day {
+  background: linear-gradient(#f39c12, #d35400);
+  color: #fff;
+  margin-left: 10px;
+}
+
+#cal-buttons button:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#cal-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cal-view-nav-buttons {
+  display: flex;
+}
+
+#cal-date-field {
+  text-transform: uppercase;
+  font-family: 'Whisper', sans-serif;
+}
